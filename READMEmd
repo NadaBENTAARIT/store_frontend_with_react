@@ -1,0 +1,32 @@
+# Test technique en développent Web 
+
+## Description
+Ce projet est un système de gestion des appareils technologiques au sein d'un magasin qui permet aux utilisateurs de créer, lire, mettre à jour et supprimer des informations sur divers appareils. Il comprend une interface utilisateur conviviale basée sur ReactJS pour la partie frontend et utilise Spring Boot comme backend pour gérer les opérations CRUD.
+
+### Backend (Spring Boot)
+1. Assurez-vous d'avoir Java installé sur votre machine.
+2. Clonez ce dépôt ( git clone https://github.com/NadaBENTAARIT/Internship-Test-.git)
+3. Ouvrez le projet dans votre IDE  (`cd store`).
+4. Configurez votre base de données dans le fichier `application.properties`.
+5. Exécutez l'application Spring Boot.
+
+### Frontend (ReactJS)
+1. Assurez-vous d'avoir Node.js installé sur votre machine.
+2. Naviguez vers le répertoire du frontend (`cd mon_app`).
+3. Installez les dépendances avec la commande : `npm install`.
+4. Lancez l'application avec la commande : `npm start`.
+
+### Base de données (PhpMyAdmin)
+1. Assurez-vous que votre serveur MySQL est en cours d'exécution.
+2. Ouvrez PhpMyAdmin dans votre navigateur (http://localhost/phpmyadmin).
+3. Connectez-vous à votre base de données.
+
+### Serveur local (WampServer)
+1. Assurez-vous d'avoir WampServer installé sur votre machine.
+2. Démarrez WampServer.
+3. Vérifiez que le serveur Apache et MySQL sont en cours d'exécution.
+4. Accédez à votre application via le navigateur.
+
+## Notes supplémentaires
+- L'autehnetification est statique au niveau du front end; la page s'authentifier nous guide toujours à la page d'accueil ( home)
+- Pour tester les opérations de crud, consulter http://localhost:3000/home et commencer par ajouter des produits pour remplir votre base.
